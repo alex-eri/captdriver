@@ -365,6 +365,7 @@ static struct lbp2900_ops_s lbp3000_ops = {
 
 register_printer("LBP2900", lbp2900_ops.ops, WORKS);
 register_printer("LBP3000", lbp3000_ops.ops, EXPERIMENTAL);
+register_printer("LBP6020", lbp3000_ops.ops, EXPERIMENTAL);
 
 static struct lbp2900_ops_s lbp3010_ops = {
 	.ops = {
